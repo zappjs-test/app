@@ -1,6 +1,5 @@
 generators:
-  /:
+  /webpack/id: {}
+  /webpack:
     keys:
-      - react
-      - gen6
-      - npm
+      - id
