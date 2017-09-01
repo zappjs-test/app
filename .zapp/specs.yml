@@ -11,5 +11,3 @@ components:
         type: string
         default: ''''''
         mapFromState: user.username
-  footer:
-    name: Footer
