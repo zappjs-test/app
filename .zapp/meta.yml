@@ -1,5 +1,6 @@
 generators:
-  /gen6/id: {}
-  /gen6:
+  /:
     keys:
-      - id
+      - react
+      - gen6
+      - npm
