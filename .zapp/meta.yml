@@ -1,37 +1,5 @@
-specs:
-  /components:
-    keys:
-      - header
-      - footer
-  /:
-    keys:
-      - app
-      - components
-  /components/header:
-    keys:
-      - name
-      - props
-  /components/header/name: {}
-  /components/header/props:
-    keys:
-      - username
-  /components/header/props/username:
-    keys:
-      - type
-      - default
-      - mapFromState
-  /components/header/props/username/type: {}
-  /components/header/props/username/default: {}
-  /components/header/props/username/mapFromState: {}
-  /components/footer:
-    keys:
-      - name
-  /components/footer/name: {}
 generators:
-  /react:
+  /gen6/id: {}
+  /gen6:
     keys:
       - id
-  /:
-    keys:
-      - react
-  /react/id: {}
