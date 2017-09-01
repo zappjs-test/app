@@ -6,3 +6,8 @@ app:
 components:
   header:
     name: Header
+    props:
+      username:
+        type: string
+        default: ''''''
+        mapFromState: username
