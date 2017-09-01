@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class  extends Component {
+class Header extends Component {
 }
 
 export default connect()(Home);
