@@ -3,3 +3,6 @@ app:
   name: app
   version: 1.0.0
   description: This is my app.
+components:
+  header:
+    name: Header
