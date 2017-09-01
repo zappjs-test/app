@@ -1,0 +1,5 @@
+app:
+  title: App
+  name: app
+  version: 1.0.0
+  description: This is my app.
