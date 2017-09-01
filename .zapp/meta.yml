@@ -2,6 +2,7 @@ specs:
   /components:
     keys:
       - header
+      - footer
   /:
     keys:
       - app
@@ -22,6 +23,10 @@ specs:
   /components/header/props/username/type: {}
   /components/header/props/username/default: {}
   /components/header/props/username/mapFromState: {}
+  /components/footer:
+    keys:
+      - name
+  /components/footer/name: {}
 generators:
   /react:
     keys:

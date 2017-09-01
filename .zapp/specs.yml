@@ -10,4 +10,6 @@ components:
       username:
         type: string
         default: ''''''
-        mapFromState: username
+        mapFromState: user.username
+  footer:
+    name: Footer
