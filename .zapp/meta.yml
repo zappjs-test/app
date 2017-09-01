@@ -9,7 +9,19 @@ specs:
   /components/header:
     keys:
       - name
+      - props
   /components/header/name: {}
+  /components/header/props:
+    keys:
+      - username
+  /components/header/props/username:
+    keys:
+      - type
+      - default
+      - mapFromState
+  /components/header/props/username/type: {}
+  /components/header/props/username/default: {}
+  /components/header/props/username/mapFromState: {}
 generators:
   /react:
     keys:
